@@ -1,0 +1,48 @@
+/*GENERAL*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #3a3b3c;
+    color: whitesmoke;
+}
+
+/*HEADER*/
+header{
+    background-color: #222222;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding: 20px 20px;
+}
+.nav-links{
+    list-style: none;
+    background-color: #222222;
+    text-align: center;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #222222;
+}
+.nav-links li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: all 0.3s ease 0s;
+    background-color: #222222;
+}
+.nav-links li a:hover{
+    color: #0088a9;
+}
+
+
+/*HOME*/
+
+
+/*BIO*/
+
+
+/*EXPERIENCE*/
+
+
+/*PORTFOLIO*/
