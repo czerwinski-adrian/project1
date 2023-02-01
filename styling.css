@@ -7,6 +7,10 @@
     font-family: sans-serif;
 }
 
+.body-colour{
+    background-color: #616161;
+}
+
 /*HEADER*/
 header{
     background-color: #222222;
