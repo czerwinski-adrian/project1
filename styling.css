@@ -8,11 +8,11 @@
 }
 
 .body-colour{
-    background-color: #616161;
+    background-color: #333333;
 }
 
 /*HEADER*/
-header{
+.main-header{
     background-color: #222222;
     align-items: center;
     position: relative;
@@ -39,6 +39,12 @@ header{
     color: #c91c65;
 }
 
+.secondary-header{
+    background: #c91c65;
+    text-align: center;
+    padding: 2em;
+}
+
 
 /*HOME*/
 /*Main Body*/
@@ -55,7 +61,7 @@ h2{
     left: 25%;
     right: 25%;
 }
-p{
+.home-main p{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,6 +74,38 @@ p{
 
 /*BIO*/
 
+#bio-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-shadow: #c91c65 3px 3px 10px;
+}
+
+.bio-head{
+    color: #c91c65;
+}
+
+h4{
+    padding: 10px 0px;
+}
+
+#bio-p1{
+    margin-bottom: 50px;
+}
+
+.bio-left{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.bio-right{
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
 
 /*EXPERIENCE*/
 
