@@ -3,8 +3,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #3a3b3c;
     color: whitesmoke;
+    font-family: sans-serif;
 }
 
 /*HEADER*/
@@ -32,11 +32,34 @@ header{
     background-color: #222222;
 }
 .nav-links li a:hover{
-    color: #0088a9;
+    color: #c91c65;
 }
 
 
 /*HOME*/
+/*Main Body*/
+.home-body {
+    background-image: url("assets/background.jpeg");
+    
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    right: 25%;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    right: 10%;
+}
 
 
 /*BIO*/
@@ -46,3 +69,14 @@ header{
 
 
 /*PORTFOLIO*/
+
+/*FOOTER*/
+footer{
+    background-color: #222222;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px;
+}
