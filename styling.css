@@ -55,7 +55,7 @@ html {
 /*HOME*/
 /*Main Body*/
 .home-body {
-    background-image: url("assets/background.jpeg");
+    background-image: url("assets/background.jpeg"); alt: "This is an aesthetc image which also provides a color theme for the site, the reader should find the color patters similar thoughout the site.";
 }
 h2{
     display: flex;
@@ -142,7 +142,6 @@ tr:nth-child(even){
     top: 45%;
     right: 10%
 }
-
 
 /*PORTFOLIO*/
 
