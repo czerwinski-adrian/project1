@@ -114,6 +114,35 @@ h4{
 
 /*EXPERIENCE*/
 
+table{
+    border-collapse: collapse;
+    width: 80%;
+}
+td, th{
+    border: 1px solid whitesmoke;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even){
+    background-color: #c91c65;
+}
+
+#exp-p{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 90%;
+}
+
+.exp-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    right: 10%
+}
+
 
 /*PORTFOLIO*/
 
