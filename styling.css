@@ -8,10 +8,13 @@
     
 }
 
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 .body{
     background-color: #333333;
-    overflow: scroll;
-    -webkit-overflow-scrolling: touch;
 }
 
 /*HEADER*/
@@ -117,7 +120,7 @@ h4{
 /*FOOTER*/
 footer{
     background-color: #222222;
-    position:fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -147,6 +150,13 @@ h2{
     align-items: center;
     position: absolute;
     top: 55%;
+}
+
+#bio-body{
+    height: 770px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
 }
 
 .bio-left{
