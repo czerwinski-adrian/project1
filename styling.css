@@ -5,10 +5,13 @@
     padding: 0;
     color: whitesmoke;
     font-family: sans-serif;
+    
 }
 
-.body-colour{
+.body{
     background-color: #333333;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 /*HEADER*/
@@ -128,5 +131,36 @@ footer{
     .nav-links{
         display: flex;
         flex-direction: column;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    right: 0%;
+}
+.home-main p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+}
+
+.bio-left{
+    float: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.bio-right{
+    float: none;
+    width: 100%;
+    padding: 5px;
+}
+#bio-p1{
+    margin-bottom: 10px;
 }
 }
