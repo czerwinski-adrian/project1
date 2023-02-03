@@ -201,4 +201,10 @@ h2{
 #bio-p1{
     margin-bottom: 10px;
 }
+#exp-body{
+    height: 770px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
 }
