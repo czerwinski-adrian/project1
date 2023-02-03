@@ -8,11 +8,6 @@
     
 }
 
-html {
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
 .body{
     background-color: #333333;
 }
@@ -148,7 +143,7 @@ tr:nth-child(even){
 /*FOOTER*/
 footer{
     background-color: #222222;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -163,6 +158,24 @@ footer{
         display: flex;
         flex-direction: column;
 }
+
+#home-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+html, .body{
+    height: 100%;
+}
+
+body > footer {
+    position: sticky;
+    top: 100vh;
+}
+
 h2{
     display: flex;
     justify-content: center;
@@ -201,8 +214,7 @@ h2{
 #bio-p1{
     margin-bottom: 10px;
 }
-#exp-body{
-    height: 770px;
+.body{
     overflow-x: hidden;
     overflow-y: auto;
     scrollbar-width: thin;
